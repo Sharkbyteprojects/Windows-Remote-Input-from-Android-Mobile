@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Sharkbyteprojects</Copyright>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>iconimg.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\gameMobile.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="controllerclient.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#ff0000" Padding="24" CornerRadius="0">
+            <Label Text="Controller!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Close this App to Stop the Connection, Reopen for new Connection!" />
+        
+        <!--Boot:-->
+        <Label x:Name="ConnectLabel" Text="Address (WITH HTTP(S)://):" IsVisible="true" />
+        <Entry Placeholder="Your Address" IsVisible="true" x:Name="ConnectEntry" />
+        <Entry Placeholder="Pin" IsVisible="true" x:Name="Connectpin" MaxLength="4" />
+        <Button x:Name="ConnectButton" Text="Connect" IsVisible="true" Clicked="connect"/>
+        
+        <!--Keys-->
+        <Button Text="E" Clicked="e" x:Name="ek" IsVisible="false" />
+        <Button Text="R" Clicked="r" x:Name="rk" IsVisible="false" />
+        <Button Text="F" Clicked="f" x:Name="fk" IsVisible="false" />
+        <Button Text="C" Clicked="c" x:Name="ck" IsVisible="false" />
+        <Button Text="W" Clicked="w" x:Name="wk" IsVisible="false" />
+        <Button Text="A" Clicked="a" x:Name="ak" IsVisible="false" />
+        <Button Text="S" Clicked="s" x:Name="sk" IsVisible="false" />
+        <Button Text="D" Clicked="d" x:Name="dk" IsVisible="false" />
+        <Button Text="1" Clicked="one" x:Name="onek" IsVisible="false" />
+        <Button Text="SPACE" Clicked="space" x:Name="spacek" IsVisible="false" />
+        
+        <!--Textinput-->
+        <Label Text="Text to Write" IsVisible="false" x:Name="textinputL" />
+        <Entry Placeholder="" IsVisible="false" x:Name="textinputW" />
+        <Button Text="Write" IsVisible="false" x:Name="textinputB" Clicked="writeout" />
+
+        <!--COPY-->
+        <Label Text="&lt;c&lt; Sharkbyteprojects" HorizontalTextAlignment="Center" TextColor="Black"/>
+        
+        <!--ERROR:-->
+        <Label Text="" HorizontalTextAlignment="Center" TextColor="Red" x:Name="errorlabel" IsVisible="false"/>
+    </StackLayout>
+
+</ContentPage>

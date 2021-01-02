@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "Game";
+
+package gamec;
+
+service GControl {
+  rpc DoSomething (HelloRequest) returns (HelloReply);
+  rpc typeit (typesomething) returns (HelloReply);
+  rpc authorisation (auths) returns (HelloReply);
+}
+
+message HelloRequest {
+  int32 Keycode = 1;
+  string Authkey = 2;
+}
+
+message auths {
+	string Authkey = 1;
+}
+
+message typesomething {
+	string Totype = 1;
+	string Authkey = 2;
+}
+
+message HelloReply {
+  bool Back = 1;
+}
