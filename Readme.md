@@ -1,4 +1,4 @@
-![](https://github.com/Sharkbyteprojects/Windows-Remote-Input-from-Android-Mobile/raw/master/controllerclient/controllerclient.Android/Resources/mipmap-hdpi/launcher_foreground.png)
+<img src="https://github.com/Sharkbyteprojects/Windows-Remote-Input-from-Android-Mobile/raw/master/controllerclient/controllerclient.Android/Resources/mipmap-hdpi/launcher_foreground.png" height="50">
 
 # Mobile Input Keys
 
