@@ -4,6 +4,11 @@
 
 An App for using your Mobile Device to Input things (WINDOWS / ANDROID)
 
+## Downloads
+- [Windows Server](https://github.com/Sharkbyteprojects/Windows-Remote-Input-from-Android-Mobile/raw/master/bin/serversetup.exe)
+- [Android Client (Remote Control)](https://github.com/Sharkbyteprojects/Windows-Remote-Input-from-Android-Mobile/raw/master/bin/com.Sharkbyteprojects.controllerclient.apk)
+
+
 ## Usage
 
 - You install the app on your Mobile Device and the Server on Windows (ONCE)
