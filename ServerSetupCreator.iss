@@ -38,7 +38,7 @@ Name: "includeapk"; Description: "Store Apk file in InstDir"; GroupDescription: 
 [Files]
 Source: ".\Game\bin\Release\netcoreapp3.1\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\Game\bin\Release\netcoreapp3.1\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\bin\{#ApkName}"; DestDir: "{app}\apkfiles"; Flags: ignoreversion recursesubdirs createallsubdirs; Tasks: includeapk
+Source: ".\.bin\{#ApkName}"; DestDir: "{app}\apkfiles"; Flags: ignoreversion recursesubdirs createallsubdirs; Tasks: includeapk
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
