@@ -20,7 +20,7 @@ namespace controllerclient
         }
         string rgex(string input)
         {
-            return (new Regex("[^a-zA-Z0-9 -]")).Replace(input, "");
+            return (new Regex("[^a-zA-Z0-9]")).Replace(input, "");
         }
         void showerror(string error)
         {
@@ -33,7 +33,7 @@ namespace controllerclient
         {
             try
             {
-                string inp = rgex(ConnectEntry.Text);
+                string inp = ConnectEntry.Text;
                 string inpin = rgex(Connectpin.Text);
                 if (inp != "" && inpin != "")
                 {

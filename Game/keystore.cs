@@ -11,7 +11,7 @@ namespace keystoreage
         string internpath = "";
         string rgex(string input)
         {
-            return (new Regex("[^a-zA-Z0-9 -]")).Replace(input, "");
+            return (new Regex("[^a-zA-Z0-9]")).Replace(input, "");
         }
         string getpath()
         {
