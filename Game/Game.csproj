@@ -5,6 +5,7 @@
     <Copyright>Sharkbyteprojects</Copyright>
     <SignAssembly>false</SignAssembly>
     <ApplicationIcon>iconimg.ico</ApplicationIcon>
+    <UserSecretsId>b1762f62-06f2-4d6c-bedd-ad006435b2f2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
